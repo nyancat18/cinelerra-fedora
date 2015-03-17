@@ -1,0 +1,5 @@
+solo debes ejecutar estos scripts de este modo
+
+sh cinelerra32.sh si usas 32 bits
+
+y sh cinelerra64.sh si usas 64 bits
