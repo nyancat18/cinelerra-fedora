@@ -26,10 +26,6 @@ wget http://apt.kde-redhat.org/apt/kde-redhat/fedora/kde.repo
 
 echo "repositorio KDE"
 
-wget https://dl-ssl.google.com/linux/linux_signing_key.pub
- rpm --import linux_signing_key.pub
-
-echo "instalando google"
 
 dnf -y install dnf-plugins-core
 echo "su sistema ya tiene todos los repos requeridos, pede comenzar el tuneo"
