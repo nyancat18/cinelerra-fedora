@@ -32,7 +32,7 @@ dnf -y install dnf-plugins-core
 echo "instalandoplugins para DNF"
 
 dnf -y install wget 
-wget -P /etc/yum.repos.d/ https://raw.github.com/kuboosoft/postinstallerf/master/postinstallerf.repo 
+wget -P https://raw.github.com/kuboosoft/postinstallerf/master/postinstallerf.repo 
 
 echo "añadiendo el repositorio postinstallerf"
 
