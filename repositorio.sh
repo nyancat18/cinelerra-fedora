@@ -28,4 +28,12 @@ echo "repositorio KDE"
 
 
 dnf -y install dnf-plugins-core
+
+echo "instalandoplugins para DNF"
+
+dnf -y install wget 
+wget -P /etc/yum.repos.d/ https://raw.github.com/kuboosoft/postinstallerf/master/postinstallerf.repo 
+
+echo "añadiendo el repositorio postinstallerf"
+
 echo "su sistema ya tiene todos los repos requeridos, pede comenzar el tuneo"
